@@ -358,6 +358,7 @@ public class Scanner {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner("src/main/resources/in.c", "src/main/resources/out.txt");
         scanner.scanning();
+        System.out.println("111");
     }
 
 }
